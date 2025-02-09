@@ -22,9 +22,6 @@ app.get("/", (req,res) => {
     res.render("index.ejs", {data: data});
 });
 
-app.post("/petroom", (req, res) => {
-    res.render("petroom.ejs", {data: data});
-});
 app.listen(port, () => {
     console.log(`Woohoo, port ${port} up and running!`)
 });

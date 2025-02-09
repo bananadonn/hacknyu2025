@@ -26,12 +26,15 @@ body{
     border:1px solid black;
     border-radius: 80px;
     transition: ease-in-out 0.5s;
-}
-.profile form{
-    display: flex;
-    justify-content: center;
-    height: 10%;
-    align-items: center;
+    h2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 300%;
+        font-weight: 1000;
+        text-shadow: 10px 10px 10px black;
+    }
 }
 .profile:hover{
     background-size: 120% 110%;
@@ -105,9 +108,7 @@ body{
     border: 1px solid blue;
     background-color: rgb(161, 161, 161);
 }
-.goal-name{
-    margin-left: 10px;
-}
+
 .data-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
