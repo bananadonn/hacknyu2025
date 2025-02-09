@@ -27,6 +27,12 @@ body{
     border-radius: 80px;
     transition: ease-in-out 0.5s;
 }
+.profile form{
+    display: flex;
+    justify-content: center;
+    height: 10%;
+    align-items: center;
+}
 .profile:hover{
     background-size: 120% 110%;
     cursor: pointer;
@@ -74,6 +80,34 @@ body{
     margin-top: 10%;
     height: 60vh;
 }
+.progress-data{
+    border: 1px solid lightblue;
+    border-radius: 15px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: lightgoldenrodyellow;
+    width: 90%;
+    margin:auto;
+    margin-top: 10%;
+    height: 60vh;
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+
+}
+.goal-bar{
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    height: 250%;
+    border: 1px solid blue;
+    background-color: rgb(161, 161, 161);
+}
+.goal-name{
+    margin-left: 10px;
+}
 .data-container{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -100,17 +134,4 @@ body{
 }
 .expense{
     margin-left: 0;
-}
-.progress-data{
-    border: 1px solid lightblue;
-    border-radius: 15px;;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgoldenrodyellow;
-    width: 90%;
-    margin:auto;
-    margin-top: 10%;
-    height: 60vh;
 }

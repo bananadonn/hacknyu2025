@@ -18,11 +18,6 @@ const data = {
 app.use(express.static("public"));
 app.use(bodyparser.urlencoded({extended: true}));
 
-function submitForm() {
-    console.log("Submitting form...");
-    document.getElementById("profile-form").submit();
-}
-
 app.get("/", (req,res) => {
     res.render("index.ejs", {data: data});
 });

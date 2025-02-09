@@ -14,12 +14,14 @@
         <div class="name">
         <h1 class="profile-name"><%= data.name%>'s Pet</h1>
         </div>
-    <form action="/petroom" method="post" id="profile-form">
-    <div class="profile" onclick="submitForm()">
-        <div class="petname" style="--name: finance fox">Finance Fox</div>
-        <div class="pet-profile"><div class="sprite"></div></div>
-    </div>
+    
+    <div class="profile">
+    <form action="/petroom" method="post">
+        <input type="submit" value="Finance Fox"></input>
     </form>
+    <div class="pet-profile"><div class="sprite"></div></div>
+    </div>
+
     </div>
     <container class="data-container">
     <container class="finance-data">
@@ -49,7 +51,14 @@
         </div>
     </container>
     <container class="progress-data">
-    <h2>Progress</h2>
+    <h2>Goals</h2>
+    <div class="goals-container">
+        <div class="goal-bar">
+            <span class="goal-name">Emergency Fund</span>
+            <div class="goal-progress" style="--progress: 50%;">
+            </div>
+        </div>
+    </div>
     </container>
 
 </body>
